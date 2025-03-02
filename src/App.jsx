@@ -23,7 +23,7 @@ import ComposerWorks from "./ComposerWorks";
 
 function App() {
     return (
-        <Router basename="/Exploring-Classical-Music">
+        <Router basename="Exploring-Classical-Music">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/composers" element={<ComposerList />} />
